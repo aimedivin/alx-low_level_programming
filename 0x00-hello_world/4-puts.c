@@ -1,9 +1,8 @@
 #include<stdio.h>
 /**
+ * Main - My first c program
  *
- *
- *My first c program
- *
+ *Return: 0
  */
 
 int main(void)
