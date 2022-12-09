@@ -1,6 +1,10 @@
 #include<stdio.h>
+
 /**
- * Main - My first c program
+ *
+ *Main - My first c program
+ *
+ *Description: 'the program's description'
  *
  *Return: 0
  */
