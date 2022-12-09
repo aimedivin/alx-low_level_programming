@@ -1,12 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
+ * main - entry point
+ * Description: My first program in c
  *
- *Main - My first c program
- *
- *Description: 'the program's description'
- *
- *Return: 0
+ * Return: Always 0 (success)
  */
 
 int main(void)
