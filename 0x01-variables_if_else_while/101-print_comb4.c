@@ -10,8 +10,9 @@ int main(void)
 {
 	int num = 1, num2 = 0, num3 = 2;
 
-	while (num2 <= 7)
+	while (num2 <= 6)
 	{
+		num = num2;
 		if (num3 % 10 == 0)
 		{
 			num++;
