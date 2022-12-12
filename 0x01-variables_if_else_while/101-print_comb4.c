@@ -12,7 +12,7 @@ int main(void)
 
 	while (num <= 6)
 	{
-		num2 = num2 + 1;
+		num2 = num + 1;
 		while(num2 <= 8)
 		{
 			num3 = num2 + 1;
