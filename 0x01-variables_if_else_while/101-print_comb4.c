@@ -27,7 +27,7 @@ int main(void)
 			putchar(',');
 			putchar(' ');
 		}
-		num++;
+		num3++;
 	}
 	putchar('\n');
 	return (0);
