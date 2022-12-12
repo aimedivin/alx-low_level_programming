@@ -8,29 +8,30 @@
 
 int main(void)
 {
-	int num = 1, num2 = 0, num3 = 2;
+	int num = 0, num2 = 1, num3 = 2;
 
-	while (num2 <= 6)
+	while (num <= 6)
 	{
-		if (num3 % 10 == 0)
+		num2 = num2 + 1;
+		while(num2 <= 8)
 		{
-			num++;
-			num3 += (num + 1);
-		}
-		if (num3 == 9)
+			num3 = num2 + 1;
+			while(num3 <= 9)
+			{
+				putchar(num % 10 + '0');
+				putchar(num2 % 10 + '0');
+				putchar(num3 % 10 + '0');
+				if (num2 != 8 && num !=6))
+				{
+					putchar(',');
+					putchar(' ');
+				}
+				num3++;
+			}
 			num2++;
-		putchar((num2 % 10) + '0');
-		putchar((num % 10) + '0');
-		putchar((num3 % 10) + '0');
-
-		if (num < 89)
-		{
-			putchar(',');
-			putchar(' ');
 		}
-		num3++;
+		num++;
 	}
 	putchar('\n');
 	return (0);
 }
-
