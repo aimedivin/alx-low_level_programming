@@ -21,14 +21,14 @@ int main(void)
 				putchar(' ');
 				for (l = i; l <= 9; l++)
 				{
-					putchar(l % 10 + '0');
-				}
-				for (m = j; m <= 9; m++)
-				{
-					putchar(m % 10 + '0');
-				}
-				putchar(',');
-				putchar(' ');
+					for (m = j; m <= 9; m++)
+					{
+						putchar(i % 10 + '0');
+						putchar(j % 10 + '0');
+						putchar(l % 10 + '0');
+						putchar(m % 10 + '0');
+						putchar(',');
+						putchar(' ');
 			}
 		}
 	}
