@@ -29,6 +29,8 @@ int main(void)
 						putchar(m % 10 + '0');
 						putchar(',');
 						putchar(' ');
+					}
+				}
 			}
 		}
 	}
