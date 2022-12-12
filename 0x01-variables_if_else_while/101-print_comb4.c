@@ -16,7 +16,7 @@ int main(void)
 		while (num2 <= 8)
 		{
 			num3 = num2 + 1;
-			while (num3 <= 9)
+			while (num3 <= 10)
 			{
 				putchar(num % 10 + '0');
 				putchar(num2 % 10 + '0');
