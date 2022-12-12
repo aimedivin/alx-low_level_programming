@@ -22,6 +22,7 @@ int main(void)
 					{
 						putchar(i % 10 + '0');
 						putchar(j % 10 + '0');
+						putchar(' ');
 						putchar(l % 10 + '0');
 						putchar(m % 10 + '0');
 						putchar(',');
