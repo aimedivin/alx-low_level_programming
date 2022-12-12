@@ -21,7 +21,7 @@ int main(void)
 				putchar(num % 10 + '0');
 				putchar(num2 % 10 + '0');
 				putchar(num3 % 10 + '0');
-				if (num2 != 8 && num !=6 && num3 != 9)
+				if (num2 != 9 && num != 7 && num3 != 10)
 				{
 					putchar(',');
 					putchar(' ');
