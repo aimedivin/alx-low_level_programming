@@ -17,6 +17,8 @@ int main(void)
 			num++;
 			num3 += (num + 1);
 		}
+		if (num == 9)
+			num = num2;
 		if (num % 8 == 0)
 		{
 			num2++;
