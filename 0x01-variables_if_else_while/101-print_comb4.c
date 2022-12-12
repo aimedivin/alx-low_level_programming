@@ -12,7 +12,6 @@ int main(void)
 
 	while (num2 <= 6)
 	{
-		num = num2;
 		if (num3 % 10 == 0)
 		{
 			num++;
