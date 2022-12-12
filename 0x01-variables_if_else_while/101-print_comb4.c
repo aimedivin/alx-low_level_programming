@@ -19,10 +19,6 @@ int main(void)
 		}
 		if (num == 8)
 			num = num2 + 1;
-		if (num % 8 == 0)
-		{
-			num2++;
-		}
 		putchar((num2 % 10) + '0');
 		putchar((num % 10) + '0');
 		putchar((num3 % 10) + '0');
