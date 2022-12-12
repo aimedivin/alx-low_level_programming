@@ -12,7 +12,7 @@ int main(void)
 
 	lett = 'z';
 
-	while (lett >= a)
+	while (lett >= 'a')
 	{
 		putchar(lett);
 		lett--;
