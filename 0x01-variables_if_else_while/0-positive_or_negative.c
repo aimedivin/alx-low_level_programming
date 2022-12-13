@@ -29,6 +29,7 @@ int main(void)
 			printf("0 is zero\n");
 			break;
 		}
+	}
 	if (n < 0)
 		printf("%d is negative\n", n);
 	return (0);
