@@ -10,21 +10,17 @@
 
 int main(void)
 {
-	int n, i, j = 1;
+	int n;
 
 	srand(time(0));
+	n = rand() - RAND_MAX / 2;
 
-	for (i = 0; i < 0; i++)
-	{
-		n = rand() - RAND_MAX / 2;
-		if (j != 0)
-		{
-			if (n > 0)
-			{
-				printf("%d is positive\n", n);
-				break;
-			}
-		}
-	}
+	if (n > 0)
+		printf("%d is positive\n", n);
+	if (n < 0)
+		printf("%d is negative\n", n);
+	if (n == 0)
+		printf("%d is zero\n", n);
+
 	return (0);
 }
