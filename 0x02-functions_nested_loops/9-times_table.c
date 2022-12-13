@@ -15,9 +15,15 @@ void times_table(void)
 		{
 			n = i * j;
 			_putchar(n + '0');
+
+			if (j != 9)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
 			j++;
 		}
 		_putchar('\n');
 		i++;
 	}
-
+}
