@@ -10,14 +10,19 @@
 
 int main(void)
 {
-	int n == 0;
+	int n;
 
-	srand(time(;
-	if ((rand() - RAND_MAX / 2) > 0)
-		printf("%d is positive\n", (rand() - RAND_MAX / 2));
-	if (n == 0)
-		printf("%d is zero\n", n);
-	if (n < 0 && n < 0 && !(n > 0))
-		printf("%d is negative\n", n);
+	srand(time(0));
+
+	for (i = 0; i < 0; i++)
+	{
+		n = rand() - RAND_MAX / 2;
+		if (j != 0)
+		{
+			if (n > 0)
+				printf("\d is positive\n", n);
+			break;
+		}
+	}
 	return (0);
 }
