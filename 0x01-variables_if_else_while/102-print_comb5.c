@@ -13,7 +13,7 @@ int main(void)
 	for (i = 0; i <= 9; i++)
 	{
 		for (j = 0; j <= 8; j++)
-		{ 
+		{
 			for (k = 0; k <= 9; k++)
 			{
 				for (l = i; l <= 9; l++)
@@ -25,7 +25,7 @@ int main(void)
 						putchar(' ');
 						putchar(l % 10 + '0');
 						if (c == j)
-							m++
+							m++;
 						putchar(m % 10 + '0');
 						putchar(',');
 						putchar(' ');
