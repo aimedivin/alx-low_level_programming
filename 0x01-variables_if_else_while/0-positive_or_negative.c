@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	int n, i, j =1;
+	int n, i, j = 1;
 
 	srand(time(0));
 
@@ -20,8 +20,10 @@ int main(void)
 		if (j != 0)
 		{
 			if (n > 0)
+			{
 				printf("%d is positive\n", n);
-			break;
+				break;
+			}
 		}
 	}
 	return (0);
