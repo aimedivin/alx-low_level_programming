@@ -5,8 +5,7 @@
 /**
  * main - entry point
  * Description: Positive anything is better than negative nothing
- *
- * Return: Always 0
+ * Return: 0
  */
 
 int main(void)
