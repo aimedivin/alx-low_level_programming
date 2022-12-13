@@ -12,7 +12,7 @@ int main(void)
 	unsigned long fibbo1 = 0, fibbo2 = 1, s;
 	double sum;
 
-	while (true)
+	while (1)
 	{
 		s = fibbo1 + fibbo2;
 		if (s > 4000000)
@@ -24,7 +24,7 @@ int main(void)
 		fibbo1 = fibbo2;
 		fibbo2 = s;
 	}
-	print("%.0f\n", sum);
+	printf("%.0f\n", sum);
 
 	return (0);
 }
