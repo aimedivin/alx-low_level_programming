@@ -9,12 +9,12 @@
 int main(void)
 {
 	int i = 0;
-	int fibbo1 = 0, fibbo2 = 1, s;
+	long fibbo1 = 0, fibbo2 = 1, s;
 
 	while (i < 50)
 	{
 		s = fibbo1 + fibbo2;
-		printf("%d", s);
+		printf("%l", s);
 
 		fibbo1 = fibbo2;
 		fibbo2 = s;
