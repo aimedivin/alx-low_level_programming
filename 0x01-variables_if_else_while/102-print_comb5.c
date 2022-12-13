@@ -10,34 +10,30 @@ int main(void)
 {
 	int i, j, k, l, m, c;
 
-	for (i = 0; i <= 9; i++)
+	for (i = 0; i < 10; i++)
 	{
-		for (j = 0; j <= 8; j++)
+		for (j = 0; j <= 10; j++)
 		{
 			for (k = 0; k <= 9; k++)
 			{
-				for (l = i; l <= 9; l++)
+				for (l = 0; l <= 9; l++)
 				{
-					for (m = (j + 1); m <= 9; m++)
+					putchar('0' + i);
+					putchar('0' + j);
+					putchar(' ');
+					putchar('0' + k);
+					putchar('0' + l);
+
+					if (!(i == 9 && j == 8))
 					{
-						putchar(i % 10 + '0');
-						putchar(j % 10 + '0');
-						putchar(' ');
-						putchar(l % 10 + '0');
-						if (c == j)
-							m++;
-						putchar(m % 10 + '0');
 						putchar(',');
 						putchar(' ');
 					}
-				}
-				if (l == 10 && m == 10)
-				{
-					j++;
-					c = j;
+					l++;
 				}
 			}
 		}
 	}
+	putchar('\n');
 	return (0);
 }
