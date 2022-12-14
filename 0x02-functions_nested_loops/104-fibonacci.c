@@ -14,7 +14,7 @@ int main(void)
 	while (i < 98)
 	{
 		sum = fibbo1 + fibbo2;
-		printf("%lu, ", sum);
+		printf("%f, ", sum);
 
 		fibbo1 = fibbo2;
 		fibbo2 = sum;
