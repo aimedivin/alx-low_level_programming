@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	unsigned long fibbo1 = 0, fibbo2 = 1, sum;
+	double fibbo1 = 0, fibbo2 = 1, sum;
 	int i = 0;
 
 	while (i < 98)
