@@ -11,7 +11,7 @@ int main(void)
 	long long int num, pfac;
 
 	num = 612852475143;
-	for (pfac = 2; pfac <= n; pfac++)
+	for (pfac = 2; pfac <= num; pfac++)
 	{
 		if (num % pfac == 0)
 		{
@@ -19,6 +19,6 @@ int main(void)
 			pfac--;
 		}
 	}
-	printf("%ld\n", pfac);
+	printf("%lld\n", pfac);
 	return (0);
 }
