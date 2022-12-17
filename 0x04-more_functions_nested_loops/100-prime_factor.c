@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	long long int num, pfac;
+	long int num, pfac;
 
 	num = 612852475143;
 	for (pfac = 2; pfac <= num; pfac++)
@@ -19,6 +19,6 @@ int main(void)
 			pfac--;
 		}
 	}
-	printf("%lld\n", pfac);
+	printf("%ld\n", pfac);
 	return (0);
 }
