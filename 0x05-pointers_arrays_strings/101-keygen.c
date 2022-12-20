@@ -14,7 +14,6 @@ int main(void)
 	char psswrd[30];
 
 	srand(time(NULL));
-	sum = 0;
 	for (i = 0; i < 30; i++)
 	{
 		psswrd[i] = 33 + rand() % 91;
