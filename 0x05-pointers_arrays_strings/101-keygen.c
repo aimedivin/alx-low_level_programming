@@ -20,9 +20,9 @@ int main(void)
 		psswrd[i] = rand() % 78;
 		sum = sum + (psswrd[i] + '0');
 		putchar(psswrd[i]);
-		if ((2772 - sum) - '0' < 78)
+		if ((2772 - sum) < 78)
 		{
-			j = 2772 - sum - '0';
+			j = 2772 - sum;
 			sum = sum + j;
 			putchar(j + '0');
 			break;
