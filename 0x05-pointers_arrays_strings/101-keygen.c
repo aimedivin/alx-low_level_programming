@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	int i, j, sum;
+	int i;
 	char psswrd[30];
 
 	srand(time(NULL));
