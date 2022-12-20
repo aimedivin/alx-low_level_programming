@@ -17,7 +17,9 @@ int main(void)
 	for (i = 0; i < 30; i++)
 	{
 		psswrd[i] = 33 + rand() % 91;
+		sum = sum + psswrd[i];
 		printf("%c", psswrd[i]);
 	}
+	putchar(2772 - sum);
 	return (0);
 }
