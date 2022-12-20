@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	int i, sum, n;
+	int i, j, sum;
 	char psswrd[100];
 
 	sum = 0;
@@ -19,12 +19,12 @@ int main(void)
 	{
 		psswrd[i] = rand() % 78;
 		sum = sum + (psswrd[i] + '0');
-		putchar(psswrd[i] + '0');
+		putchar(psswrd[i]);
 		if ((2772 - sum) - '0' < 78)
 		{
-			n = 2772 - sum - '0';
-			sum += n;
-			putchar(n + '0');
+			j = 2772 - sum - '0';
+			sum = sum + j;
+			putchar(j + '0');
 			break;
 		}
 
