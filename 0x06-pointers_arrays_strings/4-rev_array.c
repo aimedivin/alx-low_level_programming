@@ -9,9 +9,9 @@
 
 void reverse_array(int *a, int n)
 {
-	int i, swp;
+	int i, j, swp;
 
-	swp = 0;
+	j = 0;
 	for (i = n; i > 0; i--)
 	{
 		swp = *(a+j);
