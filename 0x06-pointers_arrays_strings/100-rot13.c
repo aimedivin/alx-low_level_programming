@@ -6,7 +6,7 @@
  * Return: a character point
  */
 
-char *rot13(char *)
+char *rot13(char *str)
 {
 	int i, j;
 	char set1[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
