@@ -21,6 +21,7 @@ char *leet(char *str)
 			{
 				str[i] = set2[j];
 			}
+			j++;
 		}
 	}
 	return (str);
