@@ -12,10 +12,10 @@ void reverse_array(int *a, int n)
 	int i, j, swp;
 
 	j = 0;
-	for (i = n; i > 0; i--)
+	for (i = 0; (i < (n - 1) / 2); i++)
 	{
-		swp = *(a+j);
-		*(a+j) = *(a+i);
+		swp = a[i];
+		*(a+i) = *(a+i);
 		*(a+i) = swp;
 		j++;
 	}
