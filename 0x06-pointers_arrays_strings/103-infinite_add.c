@@ -19,7 +19,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		o++;
 	while (n2[p])
 		p++;
-	if (i > size_r || j > size_r)
+	if (o > size_r || p > size_r)
 		return (0);
 	q = 0;
 	o = o - 1;
