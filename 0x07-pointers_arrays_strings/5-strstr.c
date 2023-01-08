@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdbool.h>
 
 /**
  * _strstr - that locates a substring
@@ -11,9 +12,11 @@
 char *_strstr(char *haystack, char *needle)
 {
 	int i;
-	int dec;
+	bool dec;
 
-	dec = 0;
+	dec = false;
+	if (*needle == 0)
+		return (haystack);
 	for (; *haystack; haystack++)
 	{
 		if (*needle == *haystack)
@@ -21,14 +24,14 @@ char *_strstr(char *haystack, char *needle)
 			for (i = 0; needle[i] != '\0'; i++)
 			{
 				if (*(haystack + i) == needle[i])
-					dec = 1;
+					dec = true;
 				else
 				{
-					dec = 0;
+					dec = false;
 					break;
 				}
 			}
-			if (dec == 1)
+			if (dec == true)
 				return (haystack);
 		}
 	}
