@@ -12,7 +12,7 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-	long unsigned int i;
+	int i;
 	bool dec;
 
 	dec = false;
@@ -20,7 +20,7 @@ char *_strstr(char *haystack, char *needle)
 	{
 		if (*needle == *haystack)
 		{
-			for (i = 0; i < strlen(needle); i++)
+			for (i = 0; needle[i] != '\0'; i++)
 			{
 				if (*(haystack + i) == needle[i])
 					dec = true;
