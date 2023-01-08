@@ -12,7 +12,7 @@
 
 char *_strstr(char *haystack, char *needle)
 {
-	int i;
+	long unsigned int i;
 	bool dec;
 
 	dec = false;
