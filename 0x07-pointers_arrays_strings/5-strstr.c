@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdbool.h>
-#include <string.h>
 
 /**
  * _strstr - that locates a substring
