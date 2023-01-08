@@ -24,7 +24,10 @@ char *_strstr(char *haystack, char *needle)
 				if (*(haystack + i) == needle[i])
 					dec = true;
 				else
+				{
 					dec = false;
+					break;
+				}
 			}
 			if (dec == true)
 				return (haystack);
