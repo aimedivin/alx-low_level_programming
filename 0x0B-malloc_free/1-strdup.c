@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * _strdup - returns a pointer to a new string
@@ -7,3 +8,23 @@
  * Return: on successs it returs a pointer and
  * if it fails it returns NULL
  */
+
+char *_strdup(char *str)
+{
+	char *arr;
+	int i, size;
+
+	size = 0;
+	while (*(str + size))
+		size++;
+
+	arr = malloc(sizeof(char) * size);
+	if (arr == NULL)
+		return (NULL);
+
+	for (i = 0; *str; str++, i++)
+		arr[i] = *str;
+	arr[i] = '\0';
+
+	return (arr);
+}
