@@ -18,8 +18,8 @@ char *_strdup(char *str)
 	while (*(str + size))
 		size++;
 
-	arr = malloc(sizeof(char) * size);
-	if (arr == NULL)
+	arr = malloc(sizeof(char) * (size + 1));
+	if (arr == NULL || str == NULL)
 		return (NULL);
 
 	for (i = 0; *str; str++, i++)
